@@ -1,5 +1,5 @@
 :root {
-  background-color: antiquewhite;
+  background-color: #f2efe6;
 }
 
 * {
@@ -13,11 +13,16 @@
   src: url(./fonts/Lostar.ttf);
 }
 
+@font-face {
+  font-family: phudu;
+  src: url(./fonts/Phudu-VariableFont_wght.ttf);
+}
+
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'phudu';
 }
 
 a {

@@ -28,6 +28,16 @@ input[type=checkbox]{
     user-select: none;
 }
 
+button {
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #feda0a;
+    margin-top: 10px;
+}
+
 @media (max-width: 768px) {
     img {
         display: none;
@@ -63,14 +73,4 @@ input[type=checkbox]{
         display: block;
         margin-top: 30px;
     }
-}
-
-button {
-    width: 150px;
-    height: 35px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: coral;
-    margin-top: 10px;
 }

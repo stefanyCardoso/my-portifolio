@@ -1,0 +1,143 @@
+.info {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.text {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    
+    h1 {
+        font-family: 'lostar';
+        font-size: 54px;
+        position: absolute;
+        top: 45%;
+        transform: translate(0, -50%);
+        letter-spacing: 5px;
+    }
+
+    h2 {
+        font-family: 'phudu';
+        font-size: 20px;
+        font-weight: 100;
+        position: absolute;
+        top: 55%;
+        transform: translate(0, -50%);
+        letter-spacing: 7px;
+    }
+
+    button {
+        width: 150px;
+        height: 35px;
+        border: 1px solid #feda0a;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: transparent;
+        margin-top: 10px;
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: translate(0, -50%);
+    }
+
+    ul {
+        display: flex;
+        position: absolute;
+        top: 60%;
+    
+        li {
+            margin-left: 50px;
+            font-size: 25px;
+            font-family: 'phudu';
+        }
+
+        li::marker {
+            color: #feda0a;
+            font-size: 21px;
+        }
+    }
+
+}
+
+.image {
+    background-color: #feda0a;
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media (max-width: 1050px) {
+
+    .info {
+        width: 100%;
+    }
+
+    .text {
+        h1 {
+            font-size: 37px;
+        }
+
+        h2 {
+            font-size: 16px;
+            top: 53%;
+        }
+
+        ul {
+            top: 58%;
+            li {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .image {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .info {
+        display: block;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+
+        h1 {
+            font-size: 32px;
+            text-align: center;
+            position: inherit;
+            transform: none;
+            top: 30%;
+        }
+
+        h2 {
+            text-align: center;
+            position: inherit;
+            transform: none;
+            top: 33%;
+        }
+
+        ul {
+            top: inherit;
+            position: inherit;
+            justify-content: center;
+            align-items: center;
+            margin-top: 210px;
+        }
+    }
+
+    .image {
+        display: none;
+    }
+}
