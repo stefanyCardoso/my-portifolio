@@ -1,21 +1,28 @@
 .header{
     width: 100%;
+    height: 65px;
     padding: 0px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.logo {
+    font-family: 'lostar';
+    cursor: pointer;
+}
+
 nav ul li {
     height: 20px;
     float: left;
     list-style-type: none;
-    margin: 0 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 20px;
+    font-family: 'phudu';
 }
 
 nav ul li:hover {
-    border-bottom: 2px solid yellow;
+    font-weight: 700;
+    transition: 0.5s;
 }
 
 input[type=checkbox]{
@@ -35,11 +42,15 @@ button {
     border-radius: 10px;
     cursor: pointer;
     background-color: #feda0a;
-    margin-top: 10px;
+    font-family: 'phudu';
+    font-weight: 700;
 }
 
 @media (max-width: 768px) {
-    img {
+    .header{
+        background-color: #000;
+    }
+    .logo {
         display: none;
     }
     .hamburger{
@@ -48,20 +59,23 @@ button {
     nav ul{
         display:none;
         position: absolute;
-        background-color:rgb(231, 214, 192);
+        background-color: #000;
         right: 0;
         left: 0;
         text-align: center;
         padding: 16px 0;
+        z-index: 999;
+        box-shadow: 5px 5px 8px #8888884f;
     }
 
     nav ul li {
         float: none;
+        height: 30px;
+        color: white;
     }
 
     nav ul li:hover {
         display: inline-block;
-        background-color:antiquewhite;
         transition: 0.3s ease;
     }
 

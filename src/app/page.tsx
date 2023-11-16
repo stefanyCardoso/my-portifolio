@@ -1,25 +1,30 @@
-import Header from './componentes/Header/inde'
+import { Header } from './componentes/Header'
+import { CardProjects } from './componentes/CardProjects'
+import { CardSkills } from './componentes/CardSkills'
+import { Carrousel } from './componentes/Carousel'
+import { Container } from './componentes/Container'
+import { CardInitial } from './componentes/CardInitial'
+import { CardAbout } from './componentes/CardAbout'
 import './styles.scss'
+
 
 export default function Home() {
   return (
     <main>
-      <Header />
-      <section className='info'>
-        <div className='text'>
-          <h1>Stéfany Cardoso</h1>
-          <h2>Desenvolvedora front-end</h2>
-          <ul>
-            <li>Javascript</li>
-            <li>CSS</li>
-            <li>HTML</li>
-          </ul>
-          <button>Contato</button>
-        </div>
-        <div className='image'>
-          imagem
-        </div>
-      </section>
+      <Container>
+        <Header />
+        <CardInitial />
+      </Container>
+      <Carrousel />
+      <Container>
+        <CardAbout />
+        <CardSkills />
+        <CardProjects />
+      </Container>
+
+      <footer>
+        @todos diretos preservados
+      </footer>
     </main>
   )
 }
