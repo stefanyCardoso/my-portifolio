@@ -168,11 +168,17 @@
 }
 
 @media (max-width: 475px) {
-    .div-button {
-        display: block;
-
-        button {
-            margin-top: 15px;
+    .info {
+        .text {
+            .div-button {
+                display: block;
+                margin-top: 20px;
+        
+                button {
+                    margin-top: 15px;
+                    width: 90vw;
+                }
+            }
         }
     }
 }
