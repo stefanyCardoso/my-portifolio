@@ -166,3 +166,13 @@
         }
     }
 }
+
+@media (max-width: 375px) {
+    .div-button {
+        display: block;
+
+        button {
+            margin-top: 15px;
+        }
+    }
+}
