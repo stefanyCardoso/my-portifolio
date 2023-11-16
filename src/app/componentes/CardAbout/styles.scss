@@ -61,6 +61,18 @@
     .about {
         display: block;
 
+        .ft {
+            height: 300px;
+            width: min-content;
+            margin: 0 auto;
+
+            img {
+                width: 300px;
+                height: 300px;
+                margin: 10px auto;
+            }
+        }
+
         .text-describe {
             width: 100vw;
 
