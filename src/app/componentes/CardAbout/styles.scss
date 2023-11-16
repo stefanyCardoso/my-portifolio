@@ -60,5 +60,13 @@
 @media (max-width: 768px) {
     .about {
         display: block;
+
+        .text-describe {
+            width: 100vw;
+
+            .p-text {
+                font-size: 14px;
+            }
+        }
     }
 }
