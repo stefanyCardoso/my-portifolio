@@ -3,6 +3,8 @@
 .container-proj{
     display: flex;
     margin-top: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cardP {
