@@ -19,18 +19,18 @@ interface hobbies {
 }
 
 export const SKILLS: Array<sikil> = [
-    {type: "HTML", level: 99, time: '6 Anos'},
+    {type: "HTML", level: 98, time: '6 Anos'},
     {type: "CSS", level: 98, time: '6 Anos'},
-    {type: "JavaScript", level: 95, time: '6 Anos'},
-    {type: "React.js", level: 92,time: '5 Anos'},
+    {type: "JavaScript", level: 98, time: '6 Anos'},
+    {type: "React.js", level: 93,time: '5 Anos'},
     {type: "Typescript", level: 85, time: '3 Anos'},
-    {type: "NextJS", level: 80, time: '2 Anos'},
-    {type: "Styled-Components", level: 90, time: '4 Anos'},
-    {type: "jQuery", level: 80, time: '5 Anos'},
+    {type: "NextJS", level: 85, time: '3 Anos'},
+    {type: "Styled-Components", level: 80, time: '4 Anos'},
+    {type: "jQuery", level: 80, time: '4 Anos'},
     {type: "Jest", level: 60, time: '2 Anos'},
+    {type: "PHP", level: 60, time: '2 Anos'},
+    {type: "SQL", level: 60, time: '2 Anos' },
     {type: "Angular", level: 50, time: '1 Anos'},
-    {type: "PHP", level: 36, time: '2 Anos'},
-    {type: "SQL", level: 30, time: '2 Anos' }
 ];
 
 export const PROJECTS: Array<projects> = [

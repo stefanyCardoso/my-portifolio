@@ -41,3 +41,15 @@
     -webkit-filter: drop-shadow(rgba(0, 0, 0, 0.3) 0px 0px 4px);
 
 }
+
+@media (max-width: 768px) {
+    .session {
+        .timeline {
+            .container {
+                .content {
+                    padding: 20px 16px;
+                }
+            }
+        }
+    }
+}

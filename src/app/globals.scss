@@ -108,7 +108,7 @@ button {
   background-color: $primary;
 
   &:hover{
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 5px 5px 5px #aaaaaa;
     transition: 12ms;
   }
 
@@ -123,7 +123,7 @@ button {
   background-color: transparent;
 
   &:hover{
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 5px 5px 5px #aaaaaa;
     transition: 2ms;
   }
 
@@ -131,4 +131,28 @@ button {
     border-color: #aaaaaa;
     box-shadow: none;
   }
+}
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
 }

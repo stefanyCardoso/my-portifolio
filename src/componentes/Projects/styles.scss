@@ -68,3 +68,14 @@
         margin-top: 50px;
     }
 }
+
+@media (max-width: 768px) {
+
+    .container-proj {
+        margin-top: 20px;
+
+        .cardP {
+            margin-top: 10px;
+        }
+    }
+}

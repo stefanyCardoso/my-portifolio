@@ -121,10 +121,14 @@
                 padding-right: 25px;
 
                 &::before {
-                    left: 60px;
-                    border: medium solid white;
+                    left: 62px;
+                    border: medium solid $primary;
                     border-width: 10px 10px 10px 0;
-                    border-color: transparent white transparent transparent;
+                    border-color: transparent $primary transparent transparent;
+                }
+
+                .content {
+                    padding: 20px 16px;
                 }
             }
                 
