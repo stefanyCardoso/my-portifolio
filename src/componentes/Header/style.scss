@@ -38,6 +38,10 @@ input[type=checkbox]{
 @media (max-width: 768px) {
     .header{
         background-color: #000;
+        
+        button {
+            width: 100px;
+        }
     }
     .logo {
         display: none;
