@@ -1,25 +1,27 @@
-import { Header } from './componentes/Header'
-import { CardProjects } from './componentes/CardProjects'
-import { CardSkills } from './componentes/CardSkills'
-import { Carrousel } from './componentes/Carousel'
-import { Container } from './componentes/Container'
-import { CardInitial } from './componentes/CardInitial'
-import { CardAbout } from './componentes/CardAbout'
+import { Header } from 'componentes/Header'
+import { Carrousel } from 'componentes/Carousel'
+import { Container } from 'componentes/Container'
+import { Projects } from 'app/sessions/Projects'
+import { Initial } from 'app/sessions/Initial'
+import { About } from 'app/sessions/About'
+import { Skills } from 'app/sessions/Skills'
+import { Experience } from './sessions/Experience'
 import './styles.scss'
-
 
 export default function Home() {
   return (
     <main>
       <Container>
         <Header />
-        <CardInitial />
+        <Initial />
       </Container>
       <Carrousel />
       <Container>
-        <CardAbout />
-        <CardSkills />
-        <CardProjects />
+        <About />
+        <Experience />
+
+        <Skills />
+        <Projects />
       </Container>
 
       <footer>

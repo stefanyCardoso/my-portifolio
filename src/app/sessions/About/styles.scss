@@ -1,0 +1,35 @@
+.about {
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+
+    .ft {
+        width: auto;
+        height: 100%;
+
+        img {
+            left: -100px;
+            position: relative;
+        }
+    }
+
+    .text-describe{
+        width: 600px;
+        height: 100%;
+        text-align: center;
+
+        .text-h2 {
+            margin: 50px 0;
+        }
+
+        .p-text {
+            margin-top: 15px;
+        }
+
+        .text-h3 {
+            width: fit-content;
+            margin-top: 30px;
+        }
+    }
+}

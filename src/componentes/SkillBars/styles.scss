@@ -1,0 +1,73 @@
+@import 'app/globals.scss';
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .skills {
+    width: 80%;
+    margin: 0 0px 30px 30px;
+    padding: 0;
+
+    li {
+      display: block;
+      position: relative;
+      background-color: $primary;
+      font-weight: 600;
+      text-align: left;
+      margin: 10px 0;
+      transition: width 300ms ease-in-out;
+      border-radius: 15px;
+      .collapsed & {
+        width: 0 !important;
+      }
+      p {
+        padding: 10px;
+        margin: 0;
+        font-weight: bold;
+        color: $text;
+      }
+      span {
+        position: absolute;
+        right: 10px;
+        display: inline-block;
+        width: 55px;
+        top: 11px;
+        text-align: right;
+        font-weight: 600;
+        color: $text;
+        font-size: 11px;
+      }
+    }
+  }
+  
+  hr {
+    height: 1px;
+    border: 0;
+    background-color: #ccc;
+    margin: 20px 0;
+    padding: 0;
+  }
+  
+  small {
+    font-size: 11px;
+    color: #666;
+    a {
+      color: inherit;
+    }
+  }
+
+@media (max-width: 768px) {
+  .container {
+    width: 100vw;
+    display: block;
+  }
+
+  .skills{
+    margin: 0 auto;
+  }
+}
