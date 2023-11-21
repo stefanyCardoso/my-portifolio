@@ -89,8 +89,7 @@ export const Experience = () => {
                             <p>Pleno</p>
                         </div>
                         <p className="p-description">
-                            Fui responsável pela construção e manutenção do front-end, atuando na criação de
-                            layouts responsivos com as principais tecnologias: NextsJS, ReactJS, Typescript e Jes
+                            Atuei no projeto da CVC, onde fui responsável pela parte do front-end no time de Circuitos. Atuei na criação de componentes dos steps de compra, gerando a integração com microfrontends. Fiz manutenção de testes utilizando o JEST, e gerenciamento de dados utilizando o Redux. As principais tecnologias utilizadas foram: ReactJS, NextJS, JEST, Styled-components.
                         </p>
 
                         <label>Principais tasks:</label>
